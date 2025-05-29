@@ -65,9 +65,9 @@ if __name__ == "__main__":
         buffer = [backgroundASCIICode] * (width * height)
         zBuffer = [0] * (width * height)
 
-        renderCube(20, -2, ['@', '*', '~', '#', ';', '+'])
-        renderCube(10, 1, ['@', '*', '~', '#', ';', '+'])
-        renderCube(5, 8, ['@', '*', '~', '#', ';', '+'])
+        renderCube(20, -2, ['-', '*', '~', '#', ';', '+'])
+        renderCube(10, 1, ['-', '*', '~', '#', ';', '+'])
+        renderCube(5, 8, ['-', '*', '~', '#', ';', '+'])
 
         print("\x1b[H", end="")
         for k in range(width * height):
